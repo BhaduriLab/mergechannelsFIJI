@@ -12,10 +12,15 @@ Macro for merging up to 4 channels automatically in ImageJ (FIJI)
 - Set the appropriate directories for your 4 folder holding the individual channel images
 - Set directory for output folder
 - Run Macro
+- the output file will keep the name of the images listed in the first folder
 
 ******* IMPORTANT NOTES *********
 - When running the macro, depending on your device, you may be prompted with a pop-up window (THIS IS NORMAL). If this is the case, your device is asking you to manually set the folder for the rfp channel. You will then get a 2nd pop-up window. Your device is now asking you to set the gfp channel. Next you'll get 3 more pop-up windows in which you have to set your dapi, cy5, and output folder RESPECTIVELY. After this your device has now set the 5 directories required to run the merge channels functions and you should see your merged images in your output folder
 
 - YOU MUST HAVE THE SAME NUMBER OF FILES IN EACH OF YOUR 4 FOLDERS
+
+- The order of the files must be the same in each of folder  (by name)
+
+- All file names and directories must have no spaces and no special characters
 
 - This macro was created to merge red, green, blue, and magenta channel images. If you want to merge together other channel colors you will need to modify the macro. To modify this you will have to edit the **run("Merge Channels..."** line to set appropriate channel colors.
