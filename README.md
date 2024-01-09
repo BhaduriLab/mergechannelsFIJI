@@ -19,7 +19,7 @@ Macro for merging up to 4 channels automatically in ImageJ (FIJI)
 
 - YOU MUST HAVE THE SAME NUMBER OF FILES IN EACH OF YOUR 4 FOLDERS
 
-- The order of the files must be the same in each of folder  (by name)
+- The order of the files must be the same in each folder  (by name)
 
 - All file names and directories must have no spaces and no special characters
 
